@@ -19,6 +19,8 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 # Use boostrap for front-end framework
 gem 'bootstrap-sass'
+# Use fontawesome for icons
+gem 'font-awesome-rails'
 # Use simple forms
 gem 'simple_form', '~> 3.1.0rc1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

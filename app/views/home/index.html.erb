@@ -1,21 +1,25 @@
-<div class="row">
-  <div class="col-md-12 header">
-    <header>
-        <h1 title="Jeffrey Kao" class="name">JEFFREY KAO</h1>
-         <nav class="menu">
-          <a href="#info" title="Info">Info</a>
-          <a href="#work" title="Portfolio">Work</a>
-          <a href="#contact" title="Contact">Contact</a>
-        </nav>
-        <h1>高</h1>
-        <h1>鼎</h1>
-        <h1>盛</h1>
-    </header>
+<div class="container">
+<div class="row header">
+  <div class="col-md-12">
+    <div title="Jeffrey Kao" class="name">JEFFREY KAO</div>
+    <div class="title">Developer / Engineer</div>
+    <nav class="nav nav-pills nav-stacked menu">
+      <li><a href="#home" title="Home">HOME</a></li>
+      <li><a href="#info" title="Info">INFO</a></li>
+      <li><a href="/blog" title="Blog">BLOG</a></li>
+      <li><a href="#contact" title="Contact">CONTACT</a></li>
+    </nav>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-6 info" id="info">
+  <div class="col-md-8 col-md-offset-4" id="home">
+    <%= image_tag("pro.jpg", class: "picture") %>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-8 col-md-offset-4 info" id="info">
     <h1>Info</h1>
     <p class="prox">I am full stack web developer. I enjoy making great websites from end to end!</p>
     <p class="prox">My skillset includes:</p>
@@ -30,26 +34,24 @@
         <li>SEO / Social Media Management</li>
       </ul>
   </div>
-  <div class="col-md-6 info">
-    <%= image_tag("pro.jpg", class: "picture") %>
-  </div>
 </div>
 
 
 <div class="row">
-  <div class="col-md-12 contact" id="contact">
+  <div class="col-md-8 col-md-offset-4 contact" id="contact">
     <h1>Contact</h1>
-    <a href="mailto:jeffthestampede@gmail.com"><i class="icon-envelope icon-2x"></i></a>
-    <a href="http://www.twitter.com/jeffthestampede" rel="external"><i class="icon-twitter icon-2x"></i></a>
-    <a href="http://www.linkedin.com/pub/jeffrey-kao/66/493/707" rel="external"><i class="icon-linkedin icon-2x"></i></a>
-    <a href="https://github.com/jeffthestampede" rel="external"><i class="icon-github icon-2x"></i></a>
+    <a href="mailto:jeffthestampede@gmail.com"><%= fa_icon "envelope 2x" %></a>
+    <a href="http://www.twitter.com/jeffthestampede" rel="external"><%= fa_icon "twitter 2x" %></i></a>
+    <a href="http://www.linkedin.com/pub/jeffrey-kao/66/493/707" rel="external"><%= fa_icon "linkedin 2x" %></i></a>
+    <a href="https://github.com/jeffthestampede" rel="external"><%= fa_icon "github 2x" %></i></a>
   </div>
+</div>
 </div>
 
 <div id="footer">
   <div class="row">
     <div class="col-md-12">
-      <p>&copy; Copyright 2013 Jeffrey Kao</p>
+      <p>&copy; Copyright 2014 Jeffrey Kao</p>
     </div>
   </div>
 </div>

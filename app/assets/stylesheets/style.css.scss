@@ -8,53 +8,49 @@
   src: font-url('ProximaNovaCond-Light.otf');
 }
 
-h1 {
-  font-size:40px;
+/*Header Page*/
+.header {
+  position: fixed;
 }
 
+.name {
+  font-family: 'brandon-grotesque';
+  font-size: 50px;
+}
 
-/*Header Page*/
+.title {
+  font-family: 'proxima-nova';
+  font-size: 30px;
+}
+
+.picture {
+  margin-top: 180px;
+  width: 100%;
+}
 
 .menu {
   font-family: 'proxima-nova';
-  padding: 5px 0 0 0;
-  font-size: 20px;
-  margin-top: -40px;
-}
-
-.header .name {
-  font-family: 'brandon-grotesque';
-  font-size: 80px;
+  font-size: 15px;
 }
 
 .menu a {
-  display: inline-block;
-  padding: 0 9px;
-  text-decoration: none;
   color: black;
-}
-
-.header {
-  text-align: center;
-  margin-top: 150px;
-  margin-bottom: 400px;
+  &:hover {
+    color: black;
+  }
 }
 
 /*Info Page*/
 
 .info {
   font-family: 'brandon-grotesque';
-  margin-top: 200px;
+  margin-top: 400px;
   margin-bottom: 400px;
 }
 
 .prox {
   font-family: 'proxima-nova';
   font-size: 20px;
-}
-
-.picture {
-  width: 100%;
 }
 
 .tools {
@@ -65,18 +61,25 @@ h1 {
 /*Contact Page*/
 
 .contact {
-  margin-top: 220px;
+  font-family: 'brandon-grotesque';
+  margin-top: 300px;
   margin-bottom: 400px;
 }
 
 .contact a{
-  text-decoration: none;
   color: black;
   padding-left: 3px;
   padding-right: 3px;
+  &:hover {
+    color: #5c5c5c;
+  }
 }
+
+/*Footer*/
 
 #footer {
   font-family: 'brandon-grotesque';
+  padding-top: 10px;
   text-align: center;
+  background-color: #eeeeee;
 }
