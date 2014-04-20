@@ -28,8 +28,6 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    boostrap-sass (0.0.2)
-      bootstrap-sass
     bootstrap-sass (3.1.1.1)
       sass (~> 3.2)
     builder (3.2.2)
@@ -122,7 +120,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  boostrap-sass
+  bootstrap-sass
   coffee-rails
   jbuilder
   jquery-rails

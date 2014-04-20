@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'brandon-grotesque';
+  src: font-url('Brandon_bld.otf');
+}
+
+@font-face {
+  font-family: 'proxima-nova';
+  src: font-url('ProximaNovaCond-Light.otf');
+}
+
+h1 {
+  font-size:40px;
+}
+
+
+/*Header Page*/
+
+.menu {
+  font-family: 'proxima-nova';
+  padding: 5px 0 0 0;
+  font-size: 20px;
+  margin-top: -40px;
+}
+
+.header .name {
+  font-family: 'brandon-grotesque';
+  font-size: 80px;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0 9px;
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 400px;
+}
+
+/*Info Page*/
+
+.info {
+  font-family: 'brandon-grotesque';
+  margin-top: 200px;
+  margin-bottom: 400px;
+}
+
+.prox {
+  font-family: 'proxima-nova';
+  font-size: 20px;
+}
+
+.picture {
+  width: 100%;
+}
+
+.tools {
+  font-family: proxima-nova;
+  font-size: 20px;
+}
+
+/*Contact Page*/
+
+.contact {
+  margin-top: 220px;
+  margin-bottom: 400px;
+}
+
+.contact a{
+  text-decoration: none;
+  color: black;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#footer {
+  font-family: 'brandon-grotesque';
+  text-align: center;
+}

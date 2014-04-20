@@ -18,7 +18,7 @@ gem 'coffee-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Use boostrap for front-end framework
-gem 'boostrap-sass'
+gem 'bootstrap-sass'
 # Use simple forms
 gem 'simple_form', '~> 3.1.0rc1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
