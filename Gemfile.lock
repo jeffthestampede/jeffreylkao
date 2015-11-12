@@ -134,7 +134,7 @@ DEPENDENCIES
   jquery-rails
   pg
   puma
-  rails (= 4.1.0)
+  rails
   rails_12factor
   sass-rails
   sdoc
@@ -142,3 +142,6 @@ DEPENDENCIES
   spring
   turbolinks
   uglifier
+
+BUNDLED WITH
+   1.10.6
